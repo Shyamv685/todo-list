@@ -83,10 +83,12 @@ src/
 ## 📸 Screenshots
 
 ### Main View (Active Tasks)
-![Main View](link-to-active-tasks-screenshot)
+ ![Screenshot 2024-12-19 060805](https://github.com/user-attachments/assets/6f712df9-0d03-42e7-b789-f67f39891cdd)
+
+
 
 ### Completed Tasks View
-![Completed View](link-to-completed-tasks-screenshot)
+![Screenshot 2024-12-19 060911](https://github.com/user-attachments/assets/96c29d3d-3423-4de8-b701-fc0c5e184581)
 
 ---
 
