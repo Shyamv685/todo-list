@@ -1,0 +1,5 @@
+{
+    "rewrites":[
+         {"Source":"/tasker","destination":"/index.html"} 
+    ]
+}  
