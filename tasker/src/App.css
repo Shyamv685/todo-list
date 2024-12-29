@@ -10,8 +10,8 @@
   height: 100vh;
   margin: 0;
   width:100%;
-
   
+
  } .squidblur{
   backdrop-filter:blur(7px);
   padding-bottom:300px;
@@ -208,7 +208,7 @@ overflow-y: auto;
   justify-content: space-between;
  
 }
-
+ 
 
 .todo-list-item h3{
   font-size: 25px;
@@ -270,4 +270,168 @@ overflow-y: auto;
   padding: 10px;
   font-size: 16px;
   width:fit-content;
+}
+
+/* For screens wider than 768px */
+@media (max-width: 768px) {
+ 
+  body{
+    width:100%; 
+    font-size:20px;
+    font-family: "Outfit", sans-serif;
+  }
+  .todo-input{
+    border-bottom: 1px solid rgb(78, 78, 78);
+    padding-bottom: 25px;
+    margin-bottom: 25px; 
+    
+  }
+  .todo-input-item input{ 
+    flex-wrap: wrap;
+     width:200px;
+  } 
+  .todo-list {
+  position: relative;
+  left:-100px;
+  width:300px;
+  }
+}
+
+/* For screens narrower than 768px */
+@media (max-width: 767px) {
+  
+  body{
+    width:100%; 
+    font-size:20px;
+    font-family: "Outfit", sans-serif;
+  }
+  .todo-input{
+    border-bottom: 1px solid rgb(78, 78, 78);
+    padding-bottom: 25px;
+    margin-bottom: 25px; 
+    
+  }
+  .todo-input-item input{ 
+    flex-wrap: wrap;
+     width:200px;
+  } 
+  .todo-list {
+  position: relative;
+  left:80px;
+  width:300px;
+  } 
+  .bg{
+    background-repeat: no-repeat;
+    position: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    width:100%;
+   }
+} 
+
+
+
+
+
+
+
+
+
+@media (max-width:480px) {
+ 
+  body{
+    width:100%; 
+    font-family: "Outfit", sans-serif;
+    font-size:20px;
+  }
+  .todo-input{
+    border-bottom: 1px solid rgb(78, 78, 78);
+    padding-bottom: 25px;
+    margin-bottom: 25px; 
+    flex-wrap: wrap;
+ 
+    
+  }
+  .todo-input-item input{
+     width:260px; 
+     flex-wrap: wrap;
+  }
+  input{
+    width:500px;
+  } 
+  .todo-list {
+  position: relative;
+  left:-50px;
+  width:300px;
+ 
+  }.primaryBtn{
+  
+    margin-left:10px;
+  }
+
+  .bg{
+    background-repeat: no-repeat;
+    position: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    width:100%;
+   }
+
+}
+
+
+
+
+/* Apply styles for screens between 600px and 1200px */
+@media (min-width: 600px) and (max-width: 1200px) {
+ 
+
+  body{
+    width:100%;
+    font-family: "Outfit", sans-serif;
+    font-size:18px;
+  }
+  .todo-input{
+    border-bottom: 1px solid rgb(78, 78, 78);
+    padding-bottom: 25px;
+    margin-bottom: 25px; 
+    flex-wrap: wrap;
+ 
+    
+  }
+  .todo-input-item input{
+     width:260px; 
+     flex-wrap: wrap;
+  }
+  input{
+    width:500px;
+  } 
+  .todo-list {
+  position: relative;
+  left:-70px;
+  width:300px;
+ 
+  }.primaryBtn{
+  
+    margin-left:10px;
+  }
+
+  .bg{
+    background-repeat: no-repeat;
+    position: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    width:100%;
+   }
+
+
+
+
+
 }
