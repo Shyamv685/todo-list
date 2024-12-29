@@ -21,7 +21,7 @@
 
 
 body{
-  background: transparent;  /*#1f1e1e*/
+  background: transparent;  
   color:white;
   position: fixed;
   overflow: hidden;
@@ -270,14 +270,20 @@ overflow-y: auto;
   padding: 10px;
   font-size: 16px;
   width:fit-content;
-}
+} 
+
+
+
+
+
 
 /* For screens wider than 768px */
 @media (max-width: 768px) {
  
   body{
     width:100%; 
-    font-size:20px;
+    
+    font-size:18px;
     font-family: "Outfit", sans-serif;
   }
   .todo-input{
@@ -295,7 +301,12 @@ overflow-y: auto;
   left:-100px;
   width:300px;
   }
-}
+} 
+
+
+
+
+
 
 /* For screens narrower than 768px */
 @media (max-width: 767px) {
@@ -353,7 +364,7 @@ overflow-y: auto;
     flex-wrap: wrap;
  
     
-  }
+  } 
   .todo-input-item input{
      width:260px; 
      flex-wrap: wrap;
@@ -429,9 +440,4 @@ overflow-y: auto;
     margin: 0;
     width:100%;
    }
-
-
-
-
-
 }
